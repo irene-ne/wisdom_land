@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Wisdom Land Animal World — a child-friendly animal discovery adventure." />
+  <meta name="theme-color" content="#7B61FF" />
+  <title>Wisdom Land — Animal World</title>
+
+  <!-- Design tokens and global styles -->
+  <link rel="stylesheet" href="./src/styles/tokens.css" />
+  <link rel="stylesheet" href="./src/styles/wisdom-land.css" />
+  <link rel="stylesheet" href="./src/styles/components.css" />
+  <link rel="stylesheet" href="./src/styles/animations.css" />
+
+  <!-- App shell -->
+  <link rel="stylesheet" href="./src/app/styles/app-shell.css" />
+  <link rel="stylesheet" href="./src/app/styles/hub.css" />
+  <link rel="stylesheet" href="./src/app/styles/zone.css" />
+  <link rel="stylesheet" href="./src/app/styles/discover.css" />
+  <link rel="stylesheet" href="./src/app/styles/complete.css" />
+
+  <!-- Game engines -->
+  <link rel="stylesheet" href="./src/games/who-am-i/who-am-i.css" />
+  <link rel="stylesheet" href="./src/games/memory-match/memory-match.css" />
+  <link rel="stylesheet" href="./src/games/silhouette/silhouette.css" />
+  <link rel="stylesheet" href="./src/games/jigsaw/jigsaw.css" />
+  <link rel="stylesheet" href="./src/games/odd-one-out/odd-one-out.css" />
+  <link rel="stylesheet" href="./src/games/sort-them/sort-them.css" />
+  <link rel="stylesheet" href="./src/games/word-scramble/word-scramble.css" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦁%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div id="app">
+    <main id="app-content" aria-live="polite"></main>
+  </div>
+
+  <noscript>
+    <div style="padding: 2rem; text-align: center; font-family: sans-serif;">
+      <h1>Wisdom Land needs JavaScript</h1>
+      <p>Please enable JavaScript in your browser to explore Animal World.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="./src/app/main.js"></script>
+</body>
+</html>
